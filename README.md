@@ -2,8 +2,11 @@
 
 This repo is a matlab implementation of virtual joint model approach for the tripteron manipulator 
 
-File "task" is the main file in this library 
+#File "task" is the main file in this library 
 
+any function that needs a flag, it's either 'x' , 'y' or 'z' as each sub chain works in a different plane 
+      this flag is to specify which one you need
+      
 here a name list of each function and its purpose: 
 
 - Inverse_kin_trip:
